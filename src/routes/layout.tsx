@@ -1,10 +1,11 @@
-import { component$, Slot, useSignal, $ } from '@builder.io/qwik';
 import {
-  HiArrowLongLeftOutline,
-  HiBars3Outline
-} from '@qwikest/icons/heroicons';
+  component$,
+  Slot,
+  useSignal,
+  $,
+  useVisibleTask$
+} from '@builder.io/qwik';
 import Menu from '~/components/starter/Menu/menu';
-import { HiArrowLongRightOutline } from '@qwikest/icons/heroicons';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import { routeLoader$, useLocation, useNavigate } from '@builder.io/qwik-city';
 import routes from '../routes';
@@ -28,6 +29,16 @@ export default component$(() => {
   const positionInRoutes = routes.findIndex(
     (e) => e.path === location.url.pathname
   );
+  useVisibleTask$(({ track }) => {
+    track(() => location.url.pathname);
+    if (animationDirection.value === 'out-left') {
+      animationDirection.value = 'left';
+    } else if (animationDirection.value === 'out-right') {
+      animationDirection.value = 'right';
+    } else {
+      animationDirection.value = 'middle';
+    }
+  });
   const wrapperClassName =
     animationDirection.value === 'out-left'
       ? 'slide-out-left'
@@ -55,12 +66,29 @@ export default component$(() => {
           onClick$={() => {
             animationDirection.value = 'out-left';
             setTimeout(() => {
-              animationDirection.value = 'left';
               navigate(routes[positionInRoutes + 1].path);
             }, 400);
           }}
         >
-          <HiArrowLongRightOutline class="h-10 w-10 md:h-16 md:w-16 lg:h-20 lg:w-20 shadow-xl text-gray-400 hover:text-gray-100 transition-all" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+            width="1em"
+            height="1em"
+            data-qwikest-icon=""
+            class="h-10 w-10 md:h-16 md:w-16 lg:h-20 lg:w-20 shadow-xl text-gray-400 hover:text-gray-100 transition-all"
+            q:key="mN_0"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            ></path>
+          </svg>
         </button>
       )}
       {positionInRoutes > 0 && (
@@ -70,12 +98,28 @@ export default component$(() => {
           onClick$={() => {
             animationDirection.value = 'out-right';
             setTimeout(() => {
-              animationDirection.value = 'right';
               navigate(routes[positionInRoutes - 1].path);
             }, 400);
           }}
         >
-          <HiArrowLongLeftOutline class="h-20 w-20 shadow-xl text-gray-400 hover:text-gray-100 transition-all" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+            width="1em"
+            height="1em"
+            data-qwikest-icon=""
+            class="h-10 w-10 md:h-16 md:w-16 lg:h-20 lg:w-20 shadow-xl text-gray-400 hover:text-gray-100 transition-all"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+            ></path>
+          </svg>
         </button>
       )}
       {!isMenuOpen.value && (
@@ -85,7 +129,24 @@ export default component$(() => {
             isMenuOpen.value = !isMenuOpen.value;
           }}
         >
-          <HiBars3Outline class="w-12 h-12 text-white" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+            width="1em"
+            height="1em"
+            data-qwikest-icon=""
+            class="w-12 h-12 text-white"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            ></path>
+          </svg>
         </button>
       )}
 

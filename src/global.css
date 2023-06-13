@@ -76,10 +76,10 @@
   animation: slideRightFull 1.2s ease-in-out;
 }
 .slide-out-right {
-  animation: slideOutRight 0.45s ease-in-out;
+  animation: slideOutRight 0.45s ease-in-out forwards;
 }
 .slide-out-left {
-  animation: slideOutLeft 0.45s ease-in-out;
+  animation: slideOutLeft 0.45s ease-in-out forwards;
 }
 
 /**
