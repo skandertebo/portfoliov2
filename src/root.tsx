@@ -22,11 +22,7 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <QwikPartytown forward={['dataLayer.push']} />
-        <script
-          async
-          type="text/partytown"
-          src="https://kit.fontawesome.com/e583c0fc69.js"
-        />
+        <script async src="https://kit.fontawesome.com/e583c0fc69.js" />
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>
