@@ -1,0 +1,32 @@
+[
+  {
+    "role": "FullStack Developer",
+    "company": "Intelium",
+    "location": "Tunis",
+    "duration": "Sept 2022 - Present",
+    "description": [
+      "Developed and designed web mapping solutions to digitalize the client's workflow, resulting in a 90% reduction in data collection time on premise.",
+      "Provided frontend applications for automated management and closure of worker missions, reducing mission closure time from 72 hours to nearly 0 seconds.",
+      "Built Dashboard applications for efficient visualization, analysis, and management of large geospatial datasets, handling up to 1000 rows of data daily."
+    ]
+  },
+  {
+    "role": "FullStack Developer",
+    "company": "Junior Enterprise INSAT",
+    "location": "Tunis",
+    "duration": "Oct 2022 - May 2023",
+    "description": [
+      "Led a team of 5 members in developing a forum website to promote medical tourism, utilizing HTML, CSS, React, JavaScript, Tailwind, Nest.js, and MySQL.",
+      "Contributed to a team of 8 members for the development of HOMEJEK, a mobile application facilitating the matching of clients with service providers. By providing a Dashboard application for the project."
+    ]
+  },
+  {
+    "role": "Web Development Intern",
+    "company": "Intelium",
+    "location": "Tunis",
+    "duration": "Aug 2022 - Sept 2022",
+    "description": [
+      "Developed \"Sup'Nav,\" an indoor positioning and navigation system for SUP'COM faculty, featuring navigation routes to approximately 200 locations. It was done using HTML, CSS, JavaScript, React and ArcGIS JavaScript API."
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "div6 div3 div7 div5"
+    "div4 div3 div1 div2";
+  gap: 10px;
+}
+
+.project-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: stretch;
+  object-position: center;
+}

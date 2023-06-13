@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Pokemon Go Clone",
+    "description": "a Pokemon Go clone using React, Typescript, THREE.JS, PHP Symfony and Google maps API",
+    "duration": "Apr 2023 - May 2023",
+    "github": "https://github.com/skandertebo/pokemon-go"
+  },
+  {
+    "name": "Supnav",
+    "description": "an Indoor Positioning and navigation system using React and ArcGIS API",
+    "duration": "Aug 2022 - Sept 2022",
+    "preview": "https://supnav.supcom.tn"
+  },
+  {
+    "name": "Worlde clone",
+    "description": "a simple clone of the famous Wordle game using React",
+    "duration": "Oct 2022 - Nov 2022",
+    "github": "https://github.com/skandertebo/wordle-clone",
+    "preview": "https://wordle-clone-rust.vercel.app/"
+  },
+  {
+    "name": "Flappy Bird Clone",
+    "description": "a simple clone of the famous Flappy Bird game using Rust",
+    "duration": "Mar 2023 - Mar 2023",
+    "github": "https://github.com/skandertebo/rust-flappy-bird"
+  },
+  {
+    "name": "Cashlog",
+    "description": "a simple cash management app using ExpressJS with View Engine EJS and MongoDB",
+    "duration": "Jul 2022 - Jul 2022",
+    "github": "https://github.com/skandertebo/Cash-Log"
+  },
+  {
+    "name": "Mini Ecoomerce Website",
+    "description": "a mini e-commerce website using React, Typescript and PHP Symfony",
+    "duration": "May 2023 - May 2023",
+    "github": "https://github.com/skandertebo/test-ecom-front",
+    "preview": "https://testing-ecom.azurewebsites.net/home/"
+  },
+  {
+    "name": "Old Portfolio",
+    "description": "My old Portfolio website using Nextjs",
+    "duration": "Oct 2022 - Oct 2022",
+    "github": "https://github.com/skandertebo/Portfolio",
+    "preview": "https://skandertebo.codes"
+  },
+  {
+    "name": "Chess Game",
+    "description": "a Chess game using C++ and SFML",
+    "duration": "Jan 2022 - Jan 2022",
+    "github": "https://github.com/skandertebo/chess"
+  }
+]

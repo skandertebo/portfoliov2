@@ -1,0 +1,74 @@
+[
+  {
+    "name": "React"
+  },
+  {
+    "name": "TypeScript"
+  },
+  {
+    "name": "NextJS"
+  },
+  {
+    "name": "Qwik"
+  },
+  {
+    "name": "NodeJS"
+  },
+  {
+    "name": "ExpressJS"
+  },
+  {
+    "name": "NestJS"
+  },
+  {
+    "name": "PHP"
+  },
+  {
+    "name": "Symfony"
+  },
+  {
+    "name": "WebSocket"
+  },
+  {
+    "name": "Rust"
+  },
+  {
+    "name": "Design Patterns"
+  },
+  {
+    "name": "UML"
+  },
+  {
+    "name": "Nginx"
+  },
+  {
+    "name": "Bash"
+  },
+  {
+    "name": "SQL"
+  },
+  {
+    "name": "MongoDB"
+  },
+  {
+    "name": "Python"
+  },
+  {
+    "name": "FastAPI"
+  },
+  {
+    "name": "TailwindCSS"
+  },
+  {
+    "name": "C/C++"
+  },
+  {
+    "name": "Java"
+  },
+  {
+    "name": "React Native"
+  },
+  {
+    "name": "Git"
+  }
+]
