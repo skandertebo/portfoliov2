@@ -206,7 +206,7 @@ export const head: DocumentHead = ({ resolveValue }) => {
       },
       {
         name: 'og:image',
-        content: ''
+        content: '/images/preview.png'
       },
       {
         name: 'og:url',

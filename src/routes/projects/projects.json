@@ -12,7 +12,7 @@
     "preview": "https://supnav.supcom.tn"
   },
   {
-    "name": "Worlde clone",
+    "name": "Wordle clone",
     "description": "a simple clone of the famous Wordle game using React",
     "duration": "Oct 2022 - Nov 2022",
     "github": "https://github.com/skandertebo/wordle-clone",
@@ -42,7 +42,7 @@
     "description": "My old Portfolio website using Nextjs",
     "duration": "Oct 2022 - Oct 2022",
     "github": "https://github.com/skandertebo/Portfolio",
-    "preview": "https://skandertebo.codes"
+    "preview": "https://vercel.com/skandertebo/portfolio/8VeRba6N6cv4z4nFNZSJSoUwR39R"
   },
   {
     "name": "Chess Game",
